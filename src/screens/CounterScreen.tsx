@@ -215,7 +215,6 @@ export const CounterScreen: React.FC = () => {
                     </View>
                 </Animated.View>
 
-                {/* Controls */}
                 {!isCompleted ? (
                     <View style={styles.buttonContainer} key={`buttons-${kicks}`}>
                         <Animated.View style={{ transform: [{ scale: kickScale }], width: '100%', alignItems: 'center' }}>
@@ -238,7 +237,7 @@ export const CounterScreen: React.FC = () => {
                                 onPress={handleManualStop}
                                 activeOpacity={0.8}
                             >
-                                <Text style={styles.stopButtonText}>⏹ Stop & Save</Text>
+                                <Text style={styles.stopButtonText}>Stop & Save</Text>
                             </TouchableOpacity>
                         )}
                     </View>

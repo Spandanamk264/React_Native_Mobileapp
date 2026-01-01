@@ -257,8 +257,6 @@ const styles = StyleSheet.create({
         fontWeight: '700',
         letterSpacing: 0.3,
     },
-
-    // Legacy styles
     greetingContainer: {
         flexDirection: 'row',
         justifyContent: 'space-between',
